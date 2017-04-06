@@ -1,0 +1,10 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+<script>
+  // To attach Backstrech as the body's background
+  $('.btn-success').click(function(){
+      $(".foo").backstretch("<%= asset_path 'volcan.jpg' %>");
+});
+  </script>

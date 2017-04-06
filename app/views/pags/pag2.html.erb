@@ -1,2 +1,19 @@
 <h1>Pags#pag2</h1>
 <p>Find me in app/views/pags/pag2.html.erb</p>
+<div class="jumbotron">
+	<h1>Hola , mundo!</h1>
+	<p>...</p>
+	<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	<% @users.each do |user| %> 
+	<%= user %>
+	<% end %>
+</div>
+<div class="well">
+	<%= image_tag "devil" %>
+	<%= image_tag "go" %>
+	<button type="button" class="btn btn-success">Imagen backstretch</button>
+</div>
+<div class="well">
+	<div class="foo" ></div>
+	<%= render 'shared/backstretch2' %>
+</div>
